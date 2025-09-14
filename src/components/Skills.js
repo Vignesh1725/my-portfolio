@@ -1,6 +1,6 @@
 import React from "react";
 import './styles/Skills.css';
-import { FaCloud, FaMobileAlt, FaDatabase, FaCode, FaGitAlt, FaLinux, FaFigma, FaWindows } from "react-icons/fa";
+import { FaCloud, FaDatabase, FaCode, FaGitAlt, FaFigma, FaWindows } from "react-icons/fa";
 import { SiVscodium } from "react-icons/si";
 
 const skillsData = [

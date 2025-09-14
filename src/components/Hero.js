@@ -1,6 +1,6 @@
 import React from "react";
 import './styles/Hero.css';
-import { Link, Element } from 'react-scroll';
+import { Link } from 'react-scroll';
 import { FaDownload, FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 function Hero() {

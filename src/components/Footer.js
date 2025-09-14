@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/Footer.css";
 import { Link } from 'react-scroll';
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaAddressBook, FaAddressCard } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaAddressCard } from "react-icons/fa";
 
 const Footer = () => {
   return (

@@ -1,19 +1,19 @@
 import React from "react";
 import "./styles/Education.css";
-import { FaGraduationCap, FaCertificate, FaTrophy, FaChalkboardTeacher, FaBookOpen } from "react-icons/fa";
+import { FaGraduationCap, FaCertificate } from "react-icons/fa";
 
 const Education = () => {
   const courseWorks = ["Data Structures & Algorithms", "OOPs", "Web Development", "Database Systems", "Cloud Computing", "Version Control and Collaboration", "IoT and Embedded Systems"];
-  const certificatioms = [
-          { title: "AWS Certified Cloud Practitioner", org: "Amazon Web Services", year: "2024" },
-          { title: "Google Analytics Certified", org: "Google", year: "2023" },
-          { title: "React Developer Certification", org: "Meta", year: "2023" }
-        ];
-    const leaderships = [
-          { title: "Hackathon Winner", icon: <FaTrophy />, content: "1st place at Stanford TreeHacks 2024 for developing an AI-powered accessibility tool" },
-          { title: "Teaching Assistant", icon: <FaChalkboardTeacher />, content: "CS106A: Mentored 50+ students in foundational programming concepts" },
-          { title: "Open Source Contributor", icon: <FaBookOpen />, content: "Contributed to React ecosystem with 500+ GitHub stars across projects" }
-        ]
+  // const certificatioms = [
+  //         { title: "AWS Certified Cloud Practitioner", org: "Amazon Web Services", year: "2024" },
+  //         { title: "Google Analytics Certified", org: "Google", year: "2023" },
+  //         { title: "React Developer Certification", org: "Meta", year: "2023" }
+  //       ];
+  //   const leaderships = [
+  //         { title: "Hackathon Winner", icon: <FaTrophy />, content: "1st place at Stanford TreeHacks 2024 for developing an AI-powered accessibility tool" },
+  //         { title: "Teaching Assistant", icon: <FaChalkboardTeacher />, content: "CS106A: Mentored 50+ students in foundational programming concepts" },
+  //         { title: "Open Source Contributor", icon: <FaBookOpen />, content: "Contributed to React ecosystem with 500+ GitHub stars across projects" }
+  //       ]
 
   return (
     <section className="education-section" id="education">
@@ -28,7 +28,7 @@ const Education = () => {
         </div>
         <div>
           <h3>Bachelor of Technology in Information Technology</h3>
-          <a href="#">AVC College of Engineering</a>
+          <a href="http://www.avccengg.net/">AVC College of Engineering</a>
           <div className="tags">
             <span>2022 - 2026</span>
             <span className="highlight-text">GPA: 8.54/10.0</span>
