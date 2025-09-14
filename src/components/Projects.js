@@ -33,7 +33,7 @@ const projects = [
     image: "/images/telemedpic.png",
     links: {
       live: "#",
-      code: "#"
+      code: "https://github.com/Vignesh1725/telemed-app.git"
     }
   },
     {
