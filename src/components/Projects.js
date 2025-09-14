@@ -16,7 +16,7 @@ const projects = [
     image: "/images/wsapic.png",
     links: {
       live: "#",
-      code: "#"
+      code: "https://github.com/Vignesh1725/women-safety-analysis.git"
     }
   },
   {
